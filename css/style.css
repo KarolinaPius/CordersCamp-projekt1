@@ -1,0 +1,910 @@
+
+* {
+margin: 0;
+padding: 0;
+border: 0;
+line-height: 1.4em;
+vertical-align: baseline;
+text-decoration: none;
+outline: 0;
+}
+
+.container {
+    width: 100%;
+    font-family: Raleway, sans-serif;
+}
+
+.header {
+    display: flex;
+    box-sizing: border-box;
+    height: 40px;
+    justify-content: space-between;
+    margin: 20px 30px 0 30px;
+    font-size: 24px;
+    font-weight: bold;
+}
+.mainNav {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    width: 40vw;
+}
+
+.mainNav a {
+    font-size: 18px;;
+    text-decoration: none;
+    color: #000000
+}
+
+.welcome {
+    display: flex;
+    box-sizing: border-box;
+    height: 600px;
+    background: url("../images/coverphoto.png");
+    background-position: center;
+    background-size: cover; 
+    flex-direction: column;
+    align-items: center;
+}
+
+.welcome h1 {
+    color:#FFC53D;
+    font-size: 100px;
+    font-weight: bold;
+    margin-top: 65px;
+}
+
+.welcome p {
+    color:#FFFFFF;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.socialIcon {
+    color:#FFFFFF;
+    font-size: 26px;
+}
+
+.cv {
+    height: 200px;
+    background-color: #FAFAFF;;
+    text-align: center;
+}
+.cv h1 {
+    margin: 30px;
+    padding-top: 20px;
+    font-size: 36px;
+}
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.button1{
+    border: 1px solid #FFC53D;
+    font-size: 18px;
+    color: #FFC53D;
+    font-weight: bold;
+    box-sizing: border-box;
+    padding: 10px 20px;
+    margin: 0 20px;
+    border-radius: 15px;
+    background: #FFFFFF;
+}
+
+.button1:hover {
+    background: #FFC53D;
+    color: #FFFFFF;
+}
+
+.aboutMe h1 {
+   text-align: center;
+    padding-top: 20px;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.aboutMeFrame {
+    width: 85%;
+    margin: 20px auto;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.05);
+    display:flex;
+    align-items: center;
+}
+
+.aboutMeFrame img {
+    width: 100px;
+    height: 100px;
+    margin: 40px;
+    border-radius: 50%;
+}
+
+.info{
+    margin: 20px;
+    width: 80%;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.info span {
+    color:#FFC53D
+}
+
+.infoDescription {
+    margin: 30px;
+    padding: 40px;
+    border-left: 4px  dashed #FFC53D;
+    font-size: 18px;
+    line-height: 1.7em;
+}
+
+.icons {
+    width: 85%;
+    margin: 20px auto;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.05);
+}
+
+.skills h1{
+    text-align: center;
+    padding-top: 20px;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.skills .icons {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+
+.icons .addBorder {
+    box-sizing: border-box;
+    padding: 0px 80px;
+    border-left: 4px  dashed #FFC53D;
+    border-right: 4px  dashed #FFC53D;
+}
+
+.icons div {
+    margin: 30px 70px;
+}
+
+.icons div img {
+    width: 70px;
+    height: auto;
+}
+
+.icons div h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #FFC53D
+}
+
+.icons div p {
+    font-size: 24px;
+    color: #000000
+}
+
+.portfolio {
+    padding-top: 20px;
+    font-weight: bold;
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: 350px 380px;
+}
+
+.photo1 {
+    background: url("../images/workabroad.png");
+    background-size: cover;     
+    grid-column: 1 / 4;
+    position: relative;
+    }
+
+.photo1 .content {
+    position: absolute;
+    top: 25px;
+    left: 35px;
+    right: 35px;
+}
+
+.photo1 h1 {
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.photo1 p {
+    color: white;
+    font-size: 16px;
+}
+
+.photo1 button {
+    background: linear-gradient(270deg, #FFC53D 14%, #FF9A3D 68.5%);
+    border-radius: 15px;
+    color: rgba(255, 255, 255, 255);
+    font-size: 18px;
+    font-weight: bold;
+    padding: 15px 30px;
+    margin-top: 40px;
+}
+
+.photo1 img {
+    width: 100%;
+    height: 100%;
+}
+
+.photo2 {
+    background: url("../images/plant.png");
+    background-size: cover; 
+    grid-column: 4 / 6; 
+    }
+
+.photo3 {
+    background: url("../images/meal.png");
+    background-size: cover; 
+    grid-column: 6 / 9;
+    }
+
+.photo4 {
+    background: url("../images/chair.png");
+    background-size: cover; 
+    grid-column: 1 / 3;
+    }
+
+.photo5 {
+    background: url("../images/couch.png");
+    background-size: cover; 
+    grid-column: 3 / 9;
+    position: relative;
+    }
+
+.photo5 .content {
+    position: absolute;
+    top: 25px;
+    left: 35px;
+    right: 35px;
+}
+
+.photo5 h1 {
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.photo5 p {
+    color: white;
+    font-size: 16px;
+}
+
+.photo5 button {
+    background: linear-gradient(270deg, #FFC53D 14%, #FF9A3D 68.5%);
+    border-radius: 15px;
+    color: rgba(255, 255, 255, 255);
+    font-size: 18px;
+    font-weight: bold;
+    padding: 15px 30px;
+    margin-top: 40px;
+}
+
+.photo5 img {
+    width: 100%;
+    height: 100%;
+}
+
+.contact {
+    margin-top: 50px;
+    padding-bottom: 50px;
+    background-color: #FAFAFF;;
+    text-align: center;
+}
+
+.contact h1 {
+    text-align: left;
+    margin-left: 8%;
+    padding-top: 20px;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.card {
+    width: 85%;
+    margin: 20px auto;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.05);
+    background: #FFFFFF;
+    display: flex;
+
+}
+
+.cardInfo {
+    width: 40%;
+    background-color: #FF9A3D;
+    color: #FFFFFF;
+    font-size: 18px;
+    text-align: left;
+    padding: 40px;
+}
+
+.cardInfo1 {
+    margin-bottom: 20%;
+}
+
+.envelope {
+    height: 100px;
+    margin: 20px 20px 0;
+}
+
+.envelope img {
+    animation-name: envelopeAnimation;
+    animation-duration: 0.7s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes envelopeAnimation {
+    0% {width: 10%;}
+    25% {width: 11%;}
+    50% {width: 12%;}
+    75% {width: 13%;}
+    100% {width: 14%;}
+}
+
+.bolder {
+    font-weight: bold;
+}
+
+.contactForm {
+    width: 60%;
+}
+
+.contactForm h1 {
+    text-align: left;
+    margin-left: 7%;
+    margin-bottom: 20px;
+}
+
+form {
+    width: 87%;
+}
+
+input {
+    background: #FAFAFF;
+    border-radius: 15px;
+    width: 100%;
+    height: 45px;
+    margin: 10px 30px;
+    padding: 0 15px;
+}
+
+.textArea {
+    height: 150px;
+}
+
+.send {
+    border: 1px solid #FF9A3D;
+    background: #FFFFFF;
+    border-radius: 15px;
+    color: #FF9A3D;
+    font-size: 18px;
+    font-weight: bold;
+    width: 100px;
+    height: 50px;
+    position: absolute;
+}
+
+.send:hover {
+    background: #FFC53D;
+    color: #FFFFFF;
+}
+
+footer {
+    margin: 50px;
+    text-align: center;
+    font-size: 14px;
+    color: #A0A0A0;
+}
+
+@media (max-width: 1000px) {
+
+    .header {
+        height: 30px;
+        margin: 15px 25px 0 25px;
+        font-size: 18px;
+    }
+    .mainNav {
+        width: 50vw;
+    }
+    
+    .mainNav a {
+        font-size: 16px;
+    }
+    
+    .welcome {
+        height: 400px;
+    }
+    
+    .welcome h1 {
+        font-size: 36px;
+        margin-top: 40px;
+    }
+    
+    .welcome p {
+        font-size: 24px;
+        margin-bottom: 40px;
+    }
+    
+    .socialIcon {
+        font-size: 20px;
+    }
+    
+    .cv {
+        height: 140px;
+    }
+    .cv h1 {
+        margin: 20px;
+        padding-top: 20px;
+        font-size: 26px;
+    }
+    
+    .button1{
+        font-size: 14px;
+        padding: 10px 10px;
+        margin: 0 15px;
+        border-radius: 15px;
+    }
+    
+    .aboutMe h1 {
+        padding-top: 20px;
+        font-size: 26px;
+    }
+    
+    .aboutMeFrame {
+        margin: 20px auto;
+    }
+    
+    .info{
+        margin: 20px;
+        width: 80%;
+        font-size: 16px;
+    }
+    
+    .infoDescription {
+        margin: 30px;
+        padding: 40px;
+        border-left: 2px  dashed #FFC53D;
+        font-size: 14px;
+        line-height: 1.5em;
+    }
+    
+    .icons {
+        width: 85%;
+        margin: 10px auto;
+    }
+
+    
+    .icons div {
+        margin: 20px 40px;
+    }
+    
+    .skills h1 {
+        padding-top: 20px;
+        font-size: 20px;
+    }
+    
+    .icons .addBorder {
+        padding: 0px 30px;
+        border-left: 2px  dashed #FFC53D;
+        border-right: 2px  dashed #FFC53D;
+    }
+
+    .icons div img {
+        width: 50px;
+        height: auto;
+    }
+    
+    .icons div h1 {
+        font-size: 14px;
+    }
+    
+    .icons div p {
+        font-size: 14px;
+    }
+    
+    .portfolio {
+        padding-top: 15px;
+        font-size: 26px;
+        margin-bottom: 15px;
+    }
+    
+    .grid {
+        grid-template-rows: 250px 280px;
+    }
+    
+    .photo1 h1 {
+        font-size: 24px;
+    }
+    
+    .photo1 p {
+        font-size: 14px;
+    }
+    
+    .photo1 button {
+        font-size: 14px;
+        padding: 10px 15px;
+        margin-top: 20px;
+    }
+    
+    
+    .photo5 h1 {
+        font-size: 24px;
+    }
+    
+    .photo5 p {
+        font-size: 14px;
+    }
+    
+    .photo5 button {
+        font-size: 14px;
+        padding: 10px 15px;
+        margin-top: 20px;
+    }
+    
+    .contact {
+        margin-top: 40px;
+        padding-bottom: 30px;
+    }
+    
+    .contact h1 {
+        font-size: 26px;
+    }
+    
+    .card {
+        margin: 15px auto;
+    }
+    
+    @keyframes envelopeAnimation {
+        0% {width: 20%;}
+        25% {width: 21%;}
+        50% {width: 22%;}
+        75% {width: 23%;}
+        100% {width: 24%;}
+    }
+
+    .cardInfo {
+        font-size: 16px;
+        padding: 30px;
+    }
+    
+    .contactForm h1 {
+        margin-bottom: 15px;
+    }
+    
+    input {
+        margin: 10px 10px;
+
+    }
+    
+    .textArea {
+        height: 100px;
+    }
+    
+    .send {
+        font-size: 16px;
+        width: 70px;
+        height: 40px;
+    }
+    
+    footer {
+        margin: 20px;
+        font-size: 12px;
+    }
+
+}
+
+@media (max-width: 700px) {
+
+    .welcome {
+        height: 250px;
+    }
+    
+    .welcome h1 {
+        font-size: 30px;
+        margin-top: 30px;
+    }
+    
+    .welcome p {
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+    
+    .cv {
+        height: 140px;
+    }
+    .cv h1 {
+        padding-top: 16px;
+    }
+    
+    .aboutMe h1 {
+        font-size: 20px;
+    }
+    
+    .aboutMeFrame img {
+        width: 70px;
+        height: 70px;
+        margin: 10px;
+    }
+    
+    .info{
+        margin: 20px;
+        width: 60%;
+        font-size: 12px;
+    }
+    
+    .infoDescription {
+        margin: 10px;
+        padding: 10px;
+        font-size: 12px;
+    }
+    
+    .icons div {
+        margin: 10px 30px;
+    }
+    
+    .portfolio {
+        font-size: 20px;
+    }
+    
+
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(8, 1fr);
+        grid-template-rows: 200px 200px;
+    }
+
+    .photo1 {   
+        grid-column: 1 / 9;
+    }
+
+    .photo1 img {
+        width: 100%;
+    }
+
+    .photo1 .content {
+        margin: 15px;
+    }
+
+    .photo1 h1 {
+        font-size: 16px;
+    }
+
+    .photo1 p {
+        font-size: 14px;
+    }
+
+    .photo1 button {
+        font-size: 12px;
+    }
+
+    .photo1 img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .photo2 {
+    display: none;
+        }
+
+    .photo3 {
+    display: none;
+    }
+
+    .photo4 {
+    display: none;
+    }
+
+    .photo5 {
+        grid-column: 1 / 9;
+    }
+
+    .photo5 .content {
+        margin: 15px;
+    }
+
+    .photo5 h1 {
+        font-size: 16px;
+    }
+
+    .photo5 p {
+        font-size: 14px;
+    }
+
+    .photo5 button {
+        font-size: 12px;
+    }
+    
+    .contact {
+        margin-top: 30px;
+        padding-bottom: 20px;
+    }
+    
+    .contact h1 {
+        font-size: 20px;
+    }
+    
+    .card {
+        margin: 15px auto;
+    }
+    
+    .cardInfo {
+        font-size: 14px;
+        padding: 20px;
+    }
+    
+    .contactForm h1 {
+        font-size: 16px;
+    }
+
+    input {
+        margin: 5px 0px;
+
+    }
+    
+    .send {
+        font-size: 12px;
+        width: 70px;
+        height: 40px;
+    }
+    
+    footer {
+        margin: 10px;
+    }
+
+}
+
+@media (max-width: 500px) {
+
+    
+    .header {
+        font-size: 14px;
+    }
+    .mainNav {
+        width: 70vw;
+    }
+    
+    .mainNav a {
+        font-size: 12px;
+    }
+    
+    .cv h1 {
+        font-size: 18px;
+    }
+    
+    .button1{
+        font-size: 12px;
+    }
+    
+    .aboutMeFrame {
+        margin: 10px auto;
+        display: block;
+    }
+    
+    .aboutMeFrame img {
+        display: none;
+    }
+    
+    .infoDescription {
+        margin: 10px;
+        padding: 10px;
+        font-size: 14px;
+        border: none;
+    }
+    
+    .aboutMe h1 {
+        margin: 5px;
+        padding: 0;
+        font-size: 14px;
+    }
+    
+    .info {
+        text-align: left;
+    }
+
+    .aboutMeFrame p {
+        text-align: left;
+    }
+
+    .icons {
+        width: 85%;
+        margin: 10px auto;
+    }
+
+    .icons div {
+        margin: 20px 40px;
+    }
+    
+    .skills .icons {
+        display:block;
+        margin: 20px;
+    }
+
+    .icons .addBorder {
+        border: none;
+    }
+
+    .icons div img {
+        width: 50px;
+        height: auto;
+    }
+    
+    .icons div h1 {
+        font-size: 14px;
+    }
+    
+    .icons div p {
+        font-size: 14px;
+    }
+    
+    .portfolio {
+        padding-top: 15px;
+        font-size: 26px;
+        margin-bottom: 15px;
+    }
+    
+    .card {
+        height: 400px;
+    }
+
+    .envelope {
+        height: 50px;
+        margin: 15px 15px 0;
+    }
+
+    @keyframes envelopeAnimation {
+        0% {width: 30%;}
+        25% {width: 31%;}
+        50% {width: 32%;}
+        75% {width: 33%;}
+        100% {width: 34%;}
+    }
+
+    .cardInfo {
+        width: 35%;
+        font-size: 12px;
+        padding: 5px;
+    }
+}
+
+
+@media (max-width: 400px) {
+
+
+    .logo {
+        display: none;
+    }
+
+    .socialIcon {
+        font-size: 16px;
+    }
+
+    .info {
+        text-align: left;
+    }
+
+    .aboutMeFrame p {
+        text-align: left;
+    }
+
+    .grid {
+        grid-template-rows: 230px 210px;
+    }
+
+}
